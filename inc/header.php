@@ -39,7 +39,7 @@ $(function() {
 <body>
  <header>
      <a href="landing.php" id="logo">
-        <h1>Client Interaction Management</h1>
+        <h1>Order Management System</h1>
 		<h2>NTMC Foundation</h2>
 		<nav>
         <ul>
