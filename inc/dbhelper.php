@@ -3,7 +3,7 @@
 	function connectToDbase($dbname) {
 		//connect to the database
 		
-		$conn=mysql_pconnect('localhost','nroldan','thet');
+		$conn=mysql_pconnect('localhost','root','');
 
     if (!$conn){
       echo "Could not connect to MySQL.";
