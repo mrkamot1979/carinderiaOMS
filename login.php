@@ -10,7 +10,7 @@
 
  <header>
      <a href="login.php" id="logo">
-        <h1>Client Interaction Management</h1>  
+        <h1>Order Management System</h1>  
 		<h2>NTMC Foundation</h2>
      </a>
 
