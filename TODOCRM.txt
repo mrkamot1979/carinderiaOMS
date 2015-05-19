@@ -4,3 +4,5 @@
 3) [DONE] Create GitHub repo
 4) Finalize workflow and 
 5) Manipulate MySQL database accordingly
+6) [DONE] Add the users nroldan/thet as super users in mysql
+7) [DONE]Change the header to say Order Management System
