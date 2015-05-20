@@ -12,7 +12,7 @@
 	//mechanism to stop malicious code.
 	nrstripos($_POST);
 		
-	connectToDbase('nrcrm');
+	connectToDbase('carinderia');
 	
 	//prepare query string to find out if the username and password is present in the database
 	
