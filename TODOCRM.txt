@@ -1,9 +1,9 @@
 1) [DONE] Change the header color
-2) Manipulate the database and do the changes
+2) [DONE] Manipulate the database and do the changes
 	tbluser - add nroldan / t as a user and thet / nr
 3) [DONE] Create GitHub repo
 4) Finalize workflow and 
-5) Manipulate MySQL database accordingly
+5) Manipulate MySQL database accordingly; column details
 6) [DONE] Add the users nroldan/thet as super users in mysql
 7) [DONE]Change the header to say Order Management System
 8) [DONE]Make the "header" redirect work in this version of PHP.
