@@ -23,7 +23,7 @@
     nrstripos($_POST);
  
     //connect to database
-    connectToDbase('nrcrm');
+    connectToDbase('carinderia');
     //create search string
     $searchsql =
     "SELECT * from tblclientdetails
