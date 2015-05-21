@@ -44,7 +44,7 @@ ORDER BY tblclientdetails.clientID
 
 
 //connect to database
- connectToDbase('nrcrm');
+ connectToDbase('carinderia');
 //execute
 $exdatesearchresult = mysql_query($exdaterange);
 $exnum_result= mysql_num_rows($exdatesearchresult);
