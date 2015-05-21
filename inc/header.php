@@ -43,16 +43,16 @@ $(function() {
 		<h2>NTMC Foundation</h2>
 		<nav>
         <ul>
-          <li><a href="newcliententry.php"<?php if(isset($pagetitle) AND $pagetitle == "New Client Entry") 
+          <li><a href="newcliententry.php"<?php if(isset($pagetitle) AND $pagetitle == "New Client") 
 		   {
 		   echo "class=selected";
 		   }?>
 		   >New Client</a></li>
-          <li><a href="newinteraction_search.php"<?php if(isset($pagetitle) AND $pagetitle == "New Interaction") 
+          <li><a href="newinteraction_search.php"<?php if(isset($pagetitle) AND $pagetitle == "New Order") 
 		   {
 		   echo "class=selected";
 		   }?>
-		   >New Interaction</a></li>
+		   >New Order</a></li>
           <li><a href="exdaterange_entry.php" <?php if(isset($pagetitle) AND $pagetitle == "Extract by Date") {
             echo "class=selected";
             } ?>>Extract by Date Range</a></li>
