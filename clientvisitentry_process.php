@@ -24,7 +24,7 @@
     nrstripos($_POST);
 
 	//connect to database nrcrm and enter the data to tblclientvisits
-	connectToDbase('nrcrm');
+	connectToDbase('carinderia');
 	//prepare insert statement the insert into database
 	$insertvisit = "INSERT INTO tblclientvisit (ClientID, visitid, date, time, location, notes, interactionby) VALUES ('".$clientID."', NULL, '".$visitdate."', '".$visittime."', '".$visitlocation."','".$visitnotes."','".$visitby."')";
 
