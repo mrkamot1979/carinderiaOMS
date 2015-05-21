@@ -6,7 +6,7 @@ $pagetitle = "New Client Entry";
 ?>
 <html>
 <?php
-require_once('inc/phpmailer/class.phpmailer.php');
+//require_once('inc/phpmailer/class.phpmailer.php');
 include('inc/header.php');
 include('inc/sessionvalidation.php');
 include('inc/dbhelper.php');
@@ -28,18 +28,18 @@ include('inc/dbhelper.php');
 	$procusername = cleaninput($_POST['enteredby']);
 	
 	//code block to check if they entered a valid email address using the PHPMailer's validateEmail function
-	$mail = new PHPMailer();
-	if (!$mail->ValidateAddress($procemail)) {
-		echo "<br><center>Please enter a valid email address.  Use the browser's back button to go to the previous page.</center>";
-		exit;
-	}
+	//$mail = new PHPMailer();
+	//if (!$mail->ValidateAddress($procemail)) {
+	//	echo "<br><center>Please enter a valid email address.  Use the browser's back button to go to the previous page.</center>";
+	//	exit;
+	//}
 
 
 
     //this function is housed in the inc/dbhelper.php file.  this is used to prevent malicious code.
     nrstripos($_POST);
 	//function to connect to database
-	connectToDbase('nrcrm');
+	connectToDbase('carinderia');
 
 	//prepare the insert string
 	$insertdata = "INSERT INTO tblclientdetails (ClientID, fname, lname, address, gender, email, company, enteredby) VALUES (NULL, '".$procfname."', '".$proclname."', '".$procaddress."', '".$procgender."', '".$procemail."', '".$proccompname."', '".$procusername."')";
