@@ -17,7 +17,7 @@
 <!--?php echo session_id() ;?--> 
 <div id="wrapper">
 <center>
-<h1 class="h1table">Interaction Entry Form</h1>
+<h1 class="h1table">New Order Form</h1>
 <form method="POST" action="clientvisitentry_process.php?id=<?php echo $clientID; ?>">					
 		
 		<table border="2" id="wrapper">
