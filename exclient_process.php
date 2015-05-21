@@ -26,7 +26,7 @@
     LIKE '%".$exsearchstring."%'
     ORDER BY clientID";
 	
-	connectToDbase('nrcrm');
+	connectToDbase('carinderia');
 	
 	/*
         code block below searches the database, checks if there are results to the search and
