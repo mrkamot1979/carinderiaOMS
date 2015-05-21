@@ -7,5 +7,8 @@
 6) [DONE] Add the users nroldan/thet as super users in mysql
 7) [DONE]Change the header to say Order Management System
 8) [DONE]Make the "header" redirect work in this version of PHP.
-9) Change the database name from nrcrm to "carinderia"
-10) Change header New Interaction to "New Order".
+9) [DONE] Change the database name from nrcrm to "carinderia"
+10) [DONE]hange header New Interaction to "New Order".
+11) [DONE]Change Interaction Entry Form to "New Order Form".
+12) [DONE] Change window header from New Interaction to New Order
+13) [DONE]Change header from New Client Entry to New Client
