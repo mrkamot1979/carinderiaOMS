@@ -58,6 +58,17 @@
 			<textarea name="visitnotes" id="visitnotes" style="width: 250px; height: 160px;"></textarea>
 			</td>
 			</tr>
+
+			<tr>
+			<th>
+			<label for="delivered">Delivered?</label>
+			</th>
+			<td>
+			<input type="checkbox" name="chkdelivered" value="TRUE"></td>
+			</tr>
+
+
+
 		</table>	
 
 	
