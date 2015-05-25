@@ -12,3 +12,8 @@
 11) [DONE]Change Interaction Entry Form to "New Order Form".
 12) [DONE] Change window header from New Interaction to New Order
 13) [DONE]Change header from New Client Entry to New Client
+14) Add a "Delivered" checkbox in the New Order form.  
+15) Rename clientvisityentry.php to neworderentry.php (take note of the hrefs)
+16) [DONE] Mysql - add another column in the tblclientvisit - added "Delivered" and it is defaulted to NULL.
+17) [DONE]Change the clientvisit entry form to add the Delivered checkbox.
+17.1) Make sure that the form action handles the Delivered checkbox.
