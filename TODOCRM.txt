@@ -18,3 +18,4 @@
 17) [DONE]Change the clientvisit entry form to add the Delivered checkbox.
 17.1) [DONE] Make sure that the form action handles the Delivered radio button.
 17.2) Make another radio button for FALSE
+18) Add Delivered in exdaterange_process
