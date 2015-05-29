@@ -27,7 +27,7 @@
 	//connect to database nrcrm and enter the data to tblclientvisits
 	connectToDbase('carinderia');
 	//prepare insert statement the insert into database
-	$insertvisit = "INSERT INTO tblclientvisit (ClientID, visitid, date, time, location, notes, interactionby) VALUES ('".$clientID."', NULL, '".$visitdate."', '".$visittime."', '".$visitlocation."','".$visitnotes."','".$delivered."','".$visitby."')";
+	$insertvisit = "INSERT INTO tblclientvisit (ClientID, visitid, date, time, location, notes, Delivered, interactionby) VALUES ('".$clientID."', NULL, '".$visitdate."', '".$visittime."', '".$visitlocation."','".$visitnotes."','".$delivered."','".$visitby."')";
 
 	$resultvisit = mysql_query($insertvisit);
 
