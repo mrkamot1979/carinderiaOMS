@@ -32,6 +32,7 @@ tblclientdetails.lname,
 tblclientvisit.date, 
 tblclientvisit.location, 
 tblclientvisit.notes, 
+tblclientvisit.Delivered,
 tblclientvisit.interactionby 
 FROM
 tblclientdetails, tblclientvisit 
@@ -62,6 +63,7 @@ if ($exnum_result == 0) {
             echo "<td align=\"center\">Last Name";
             echo "<td style='table-layout: fixed; width: 10%' align=\"center\">Date";
             echo "<td align=\"center\">Location";
+            echo "<td align=\"center\">Delivered?";
             echo "<td class=\"tblnotes\">Notes";
 			echo "<td align=\"center\">Interaction by";
             echo "</tr>";
@@ -82,6 +84,8 @@ if ($exnum_result == 0) {
                echo "<td>";
                echo htmlspecialchars($row['location']);
 			   echo "<td>";
+               echo htmlspecialchars($row['Delivered']);
+          echo "<td>";
                echo htmlspecialchars($row['notes']);
 			   echo "<td>";
                echo htmlspecialchars($row['interactionby']);
