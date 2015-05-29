@@ -33,7 +33,7 @@
 	";
 		
 	//connect to database and execute the search
-	connectToDbase('nrcrm');
+	connectToDbase('carinderia');
 	
 	$exclientshowtable = mysql_query($exclientexport);
 	
