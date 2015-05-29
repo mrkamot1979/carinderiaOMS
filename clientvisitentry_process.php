@@ -19,6 +19,7 @@
 	$visitlocation = cleaninput($_POST['visitlocation']);
 	$visitnotes = cleaninput($_POST['visitnotes']);
 	$visitby = cleaninput($_POST['interactionby']);
+	$delivered = cleaninput($_POST['chkdelivered']);
 
     //code block to prevent malicious code.
     nrstripos($_POST);
@@ -26,7 +27,7 @@
 	//connect to database nrcrm and enter the data to tblclientvisits
 	connectToDbase('carinderia');
 	//prepare insert statement the insert into database
-	$insertvisit = "INSERT INTO tblclientvisit (ClientID, visitid, date, time, location, notes, interactionby) VALUES ('".$clientID."', NULL, '".$visitdate."', '".$visittime."', '".$visitlocation."','".$visitnotes."','".$visitby."')";
+	$insertvisit = "INSERT INTO tblclientvisit (ClientID, visitid, date, time, location, notes, interactionby) VALUES ('".$clientID."', NULL, '".$visitdate."', '".$visittime."', '".$visitlocation."','".$visitnotes."','".$delivered."','".$visitby."')";
 
 	$resultvisit = mysql_query($insertvisit);
 
