@@ -16,4 +16,5 @@
 15) Rename clientvisityentry.php to neworderentry.php (take note of the hrefs)
 16) [DONE] Mysql - add another column in the tblclientvisit - added "Delivered" and it is defaulted to NULL.
 17) [DONE]Change the clientvisit entry form to add the Delivered checkbox.
-17.1) Make sure that the form action handles the Delivered checkbox.
+17.1) [DONE] Make sure that the form action handles the Delivered checkbox.
+17.2) Make another checkbox for FALSE
