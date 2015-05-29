@@ -19,7 +19,7 @@
 	$visitlocation = cleaninput($_POST['visitlocation']);
 	$visitnotes = cleaninput($_POST['visitnotes']);
 	$visitby = cleaninput($_POST['interactionby']);
-	$delivered = cleaninput($_POST['chkdelivered']);
+	@$delivered = cleaninput($_POST['chkdelivered']);
 
     //code block to prevent malicious code.
     nrstripos($_POST);
