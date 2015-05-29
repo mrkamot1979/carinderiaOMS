@@ -64,7 +64,8 @@
 			<label for="delivered">Delivered?</label>
 			</th>
 			<td>
-			<input type="checkbox" name="chkdelivered" value="TRUE"></td>
+			<input type="checkbox" name="chkdelivered" value="TRUE">TRUE</td>
+			<input type="checkbox" name="chkdelivered" value="FALSE">FALSE</td>
 			</tr>
 
 
