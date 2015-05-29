@@ -64,8 +64,9 @@
 			<label for="delivered">Delivered?</label>
 			</th>
 			<td>
-			<input type="checkbox" name="chkdelivered" value="TRUE">TRUE</td>
-			<input type="checkbox" name="chkdelivered" value="FALSE">FALSE</td>
+			TRUE <input type="radio" name="rdodelivered" value="TRUE">
+			FALSE <input type="radio" name="rdodelivered" value="FALSE">
+			</td>
 			</tr>
 
 
