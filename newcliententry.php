@@ -1,6 +1,6 @@
 <?php
 session_start();
-$pagetitle = "New Client Entry";
+$pagetitle = "New Client";
 ?>
 <html>
 <?php
