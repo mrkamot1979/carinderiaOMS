@@ -20,3 +20,4 @@
 17.2) Make another radio button for FALSE
 18) Add Delivered in exdaterange_process
 19) [DONE] Changed from "New Client Entry" to "New Client"
+20) [DONE] Added "Update Orders" in the inc/header file.
