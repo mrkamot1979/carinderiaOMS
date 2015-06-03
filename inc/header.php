@@ -43,22 +43,22 @@ $(function() {
 		<h2>NTMC Foundation</h2>
 		<nav>
         <ul>
-          <li><a href="newcliententry.php"<?php if(isset($pagetitle) AND $pagetitle == "New Client") 
-		   {
-		   echo "class=selected";
-		   }?>
-		   >New Client</a></li>
-          <li><a href="newinteraction_search.php"<?php if(isset($pagetitle) AND $pagetitle == "New Order") 
-		   {
-		   echo "class=selected";
-		   }?>
-		   >New Order</a></li>
-          <li><a href="exdaterange_entry.php" <?php if(isset($pagetitle) AND $pagetitle == "Extract by Date") {
-            echo "class=selected";
-            } ?>>Extract by Date Range</a></li>
-			<li><a href="exclient_entry.php" <?php if(isset($pagetitle) AND $pagetitle == "Extract by Client") {
-            echo "class=selected";
-            } ?>>Extract by Client</a></li>
+          <li>
+            <a href="newcliententry.php"<?php if(isset($pagetitle) AND $pagetitle == "New Client") {echo "class=selected"; }?>
+		   >New Client</a>
+          </li>
+          <li><a href="newinteraction_search.php"<?php if(isset($pagetitle) AND $pagetitle == "New Order") {echo "class=selected";}?>
+		   >New Order</a>
+          </li>
+          <li><a href="#" <?php if(isset($pagetitle) AND $pagetitle == "Update Orders") {echo "class=selected";}?>
+            >Update Orders</a>
+          </li>
+          <li><a href="exdaterange_entry.php" <?php if(isset($pagetitle) AND $pagetitle == "Extract by Date") {echo "class=selected";}?>
+            >Extract by Date Range</a>
+          </li>
+			<li><a href="exclient_entry.php" <?php if(isset($pagetitle) AND $pagetitle == "Extract by Client") {echo "class=selected";}?> 
+        >Extract by Client</a>
+      </li>
         </ul>
 
       </nav>
