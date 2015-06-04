@@ -46,7 +46,7 @@
 
     {
       echo "<center><font size='20'><b>$num_result</b> record/s found.</font><br><br>";
-            echo "<table border='5' style='table-layout: fixed; width: 80%'>";
+            echo "<table name='tblresults 'id='tblresults' border='5' style='table-layout: fixed; width: 80%'>";
             echo "<tr bgcolor='3366CC'>";
             echo "<td align=\"center\">Client ID";
             echo "<td align=\"center\">Company";
