@@ -28,7 +28,7 @@
 
       </table>
     <br>
-    <input type="submit" value="Submit" />
+    <input name="btnSubmit" id="btnSubmit" type="submit" value="Submit" />
   </form>
 </center>
 
